@@ -1,5 +1,6 @@
-// 不可以使用shift,只能使用push和pop方法
+// 在js中模拟栈的话不可以使用shift,只能使用push和pop方法
 /**
+ * @description 两栈实现队列 要求: O(1)
  * 新建两个栈， 一个pushStack用来模拟增加操作， 一个popStack用来存储倒序的数据， 使用popStack来模拟删除操作
  * https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
  */
