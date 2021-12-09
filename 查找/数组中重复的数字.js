@@ -1,7 +1,7 @@
 /**
  * @param {number[]} nums
  * @return {number}
- * @description 用hash表
+ * 用hash表
  */
 var findRepeatNumber = function (nums) {
   const map = new Map()

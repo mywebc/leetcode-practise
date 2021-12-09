@@ -1,6 +1,7 @@
 /**
  * @param {string} s
  * @return {character}
+ * 哈希表
  */
 var firstUniqChar = function (s) {
   if (s === "") return " "

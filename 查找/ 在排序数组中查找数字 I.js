@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @param {number} target
  * @return {number}
+ * 二分
  */
 // 暴力解法 O(n)
 var search1 = function (nums, target) {
