@@ -5,6 +5,7 @@
  * dp[i]中如果要最大， dp[i-1] 就要>0, 小于0就不加
  * if(dp[i-1] > 0) dp[i] = dp[i-1] + nums[i]
  * if(dp[i-1]<=0) dp[i] = nums[i]
+ * 这一题和最大子数组和一样
  */
 var maxSubArray = function (nums) {
     const dp = []
